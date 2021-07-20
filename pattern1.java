@@ -1,0 +1,24 @@
+/*
+5 4 3 2 1 
+5 4 3 2 
+5 4 3
+5 4 
+5 
+*/
+import java.util.* ;
+public class pattern1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int number  = sc.nextInt();
+        for(int i = number ; i > 0 ; i--)
+        {
+         for(int j = i ; j>0 ; j--)
+         {
+             System.out.print(j);
+         }
+         System.out.println();
+        }
+
+    }
+}
