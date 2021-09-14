@@ -5,6 +5,6 @@ public class p3 {
                 System.out.print(j);
             }
             System.out.println();
-       }
+        }
     }
 }
