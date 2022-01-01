@@ -1,6 +1,6 @@
-import java.util.*;
-class temp <T>{
-    public static void main(String[] args) {
-        
+public class temp{
+    
+    temp(Another ab){
+        ab.ab = 5;
     }
 }

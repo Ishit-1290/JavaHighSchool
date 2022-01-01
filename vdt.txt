@@ -1,0 +1,46 @@
+class prg10{
+    public int Sum(int a, int b){
+        int min = Math.min(a, b);
+        int max = Math.max(a, b);
+        int sum = 0;
+        for(; min <= max; min++){
+            if(min%2 == 0){
+                sum += min;
+            }
+        }
+        System.out.println("SUM = " + sum);
+        return sum;
+    }
+    public double Sum(double N){
+        double product = 1.0;
+        for(double i = 1.2; i <= N; i+=0.2){
+            product = product*i;
+        }
+        System.out.println("Product: " + product);
+        return product;
+    }
+    public int Sum(int N){
+        int c= 1;
+        int sum = 0;
+        while(N != 0){
+            if(c%2 == 1)
+                sum += N%10;
+            c++;
+            N /= 10;
+        }
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
+}
+
+Variable | Data-type | Description
+a        |   int     | to store the number
+b        |   int     | to store the number
+min      |   int     | to store the lesser of the two number
+min      |   int     | to store the greater of the two number
+N        |   double  | to store the number
+product  |   double  | to store the product of two numbers
+i        |   double  | looping variable
+N        |   int     | to store the number
+c        |   int     | to check if position of digit is even or odd
+sum      |   int     | to store the sum of valid numbers
